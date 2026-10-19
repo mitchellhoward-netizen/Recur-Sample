@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.15.0
+- Labelling: label changes follow their own controlled approval route (regulatory review, artwork proof, approval), separate from ordinary documents.
+
 ## 8.14.0
 - Software Validation: every software release carries its IEC 62304 safety class, validation evidence and e-signed approval inside the change record.
 
