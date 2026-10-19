@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.19.0
+- Design Controls: one design change log per product, each change with its DHF and risk-file trace and its re-verification, ready for an audit or a Special 510(k).
+
 ## 8.18.0
 - Change Management: approving a design change now opens the re-verification it requires, traced from the design history file and risk file, and the change cannot close until every task is done.
 
