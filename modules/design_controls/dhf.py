@@ -11,3 +11,10 @@ class DesignHistoryFile:
     def untraced_inputs(self) -> list:
         covered = {r for reqs in self.outputs.values() for r in reqs}
         return sorted(set(self.inputs) - covered)
+
+
+    def link_change(self, change_number: str, output_ids: list) -> None:
+        """Record which design outputs a change touched, so the DHF shows every change in context."""
+        for o in output_ids:
+            self.outputs.setdefault(o, [])
+        self.changes = getattr(self, "changes", []) + [(change_number, list(output_ids))]
