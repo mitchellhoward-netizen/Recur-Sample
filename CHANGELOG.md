@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.14.0
+- Software Validation: every software release carries its IEC 62304 safety class, validation evidence and e-signed approval inside the change record.
+
 ## 8.13.0
 - Change Management: change impact analysis. Every change request shows the design history file outputs and risk controls it touches, in one place.
 
