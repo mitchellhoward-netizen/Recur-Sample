@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.24.0
+- Design Controls: trace export. One file per design change, from change request through DHF outputs and risk controls to closed re-verification, ready for a Special 510(k) or an auditor.
+
 ## 8.23.0
 - Design Controls: impact preview. Before a design change is approved, see the DHF outputs, risk controls and cleared devices it touches, and whether a Special 510(k) is likely.
 
