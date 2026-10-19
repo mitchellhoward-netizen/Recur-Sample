@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.16.0
+- Design Controls: every design change is linked to the risk assessments and design history file entries it affects.
+
 ## 8.15.0
 - Labelling: label changes follow their own controlled approval route (regulatory review, artwork proof, approval), separate from ordinary documents.
 

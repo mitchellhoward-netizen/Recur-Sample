@@ -18,3 +18,8 @@ class DesignHistoryFile:
         for o in output_ids:
             self.outputs.setdefault(o, [])
         self.changes = getattr(self, "changes", []) + [(change_number, list(output_ids))]
+
+
+def risk_links(dhf, risk_file: dict) -> dict:
+    """Every design output with the risk controls that depend on it, so a change shows its risk impact (simulated)."""
+    return {o: sorted(r for r, ctrl in risk_file.items() if o in ctrl) for o in dhf.outputs}
