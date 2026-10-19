@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.23.0
+- Design Controls: impact preview. Before a design change is approved, see the DHF outputs, risk controls and cleared devices it touches, and whether a Special 510(k) is likely.
+
 ## 8.22.0
 - Design Controls: a design change dashboard shows every open change with its DHF and risk-file trace and open re-verification, so quality sees what blocks the next Special 510(k).
 
