@@ -3,10 +3,11 @@ import csv
 import io
 
 
-def export(signatures, record_titles) -> str:
+def export(signatures, record_titles, record_versions=None) -> str:
+    record_versions = record_versions or {}
     out = io.StringIO()
     w = csv.writer(out)
-    w.writerow(["record_id", "record_title", "user", "meaning", "signed_at_utc"])
+    w.writerow(["record_id", "record_title", "record_version", "user", "meaning", "signed_at_utc"])
     for s in sorted(signatures, key=lambda s: s.signed_at):
-        w.writerow([s.record_id, record_titles.get(s.record_id, ""), s.user, s.meaning, s.signed_at.isoformat()])
+        w.writerow([s.record_id, record_titles.get(s.record_id, ""), record_versions.get(s.record_id, ""), s.user, s.meaning, s.signed_at.isoformat()])
     return out.getvalue()
