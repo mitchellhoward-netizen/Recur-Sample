@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.20.0
+- Design Controls: Special 510(k) pack. For a design change to a cleared device, the design-control evidence FDA reviews is assembled from the change record, its DHF and risk-file trace and its re-verification, with nothing traced by hand.
+
 ## 8.19.0
 - Design Controls: one design change log per product, each change with its DHF and risk-file trace and its re-verification, ready for an audit or a Special 510(k).
 
