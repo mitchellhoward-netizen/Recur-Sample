@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.22.0
+- Design Controls: a design change dashboard shows every open change with its DHF and risk-file trace and open re-verification, so quality sees what blocks the next Special 510(k).
+
 ## 8.21.0
 - Design Controls: a pre-submission check for Special 510(k)s lists exactly what is missing from a design change record, from change request through DHF and risk file to closed re-verification.
 
