@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.17.0
+- Software Validation: firmware releases are validated and e-signed inside the change record before they ship (IEC 62304 class, test evidence, approval).
+
 ## 8.16.0
 - Design Controls: every design change is linked to the risk assessments and design history file entries it affects.
 
