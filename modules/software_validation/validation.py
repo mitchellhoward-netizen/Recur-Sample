@@ -12,4 +12,3 @@ def release_record(change, evidence: list, approvals: list) -> dict:
     if not approvals:
         raise ValueError("a software release needs an e-signed approval")
     return {"change": change.number, "safety_class": change.safety_class, "evidence": list(evidence), "approvals": list(approvals)}
-/comment
