@@ -10,7 +10,11 @@ class ChangeRequest:
     risk_assessed: bool = False
     status: str = "open"
 
+    training_complete: bool = False
+
     def close(self) -> None:
         if not self.risk_assessed:
             raise ValueError("a change cannot close before its risk assessment")
+        if not self.training_complete:
+            raise ValueError("a change cannot close until retraining on the changed documents is complete")
         self.status = "closed"
