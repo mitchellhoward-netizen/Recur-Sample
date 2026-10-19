@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.18.0
+- Change Management: approving a design change now opens the re-verification it requires, traced from the design history file and risk file, and the change cannot close until every task is done.
+
 ## 8.17.0
 - Design Controls: every design change is traced automatically from the change request through the design history file to the risk file, with what must be re-verified.
 
