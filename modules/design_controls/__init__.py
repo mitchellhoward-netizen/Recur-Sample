@@ -1,0 +1,1 @@
+"""design controls module (simulated)."""
