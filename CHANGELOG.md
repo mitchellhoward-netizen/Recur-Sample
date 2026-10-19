@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.13.0
+- Change Management: change impact analysis. Every change request shows the design history file outputs and risk controls it touches, in one place.
+
 ## 8.12.0
 - Learning Management: a design or process change that makes a document effective assigns retraining to every role that uses it; the change cannot close until training is complete.
 
