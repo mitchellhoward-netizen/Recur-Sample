@@ -2,6 +2,9 @@
 
 Versions and contents below are invented for the demo; see README.
 
+## 8.21.0
+- Design Controls: a pre-submission check for Special 510(k)s lists exactly what is missing from a design change record, from change request through DHF and risk file to closed re-verification.
+
 ## 8.20.0
 - Design Controls: Special 510(k) pack. For a design change to a cleared device, the design-control evidence FDA reviews is assembled from the change record, its DHF and risk-file trace and its re-verification, with nothing traced by hand.
 
